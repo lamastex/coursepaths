@@ -1,5 +1,38 @@
 {
     "allRows": {
+        "0thRow": {
+            "id": "0th-row",
+            "cards": {
+                "1stCard": {
+                    "id": "000_1-sds-3-x-spark",
+                    "hover": "Introduction to Scalable Data Science and Distributed Machine Learning. Topics: Apache Spark, Scala, RDD, map-reduce.",
+                    "connections": [
+                        {
+                            "targetId": "000_1-sds-3-x-sql",
+                            "targetAnchor": "left",
+                            "sourceAnchor": "right"
+                        }
+                    ],
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x-spark",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x-spark",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/latest/000_1-sds-3-x-spark.dbc"
+                },
+                "2ndCard": {
+                    "id": "000_1-sds-3-x-sql",
+                    "hover": "Introduction to SparkSQL, DataFrames, DataSets for Ingest-Extract-Load-Transform.",
+                    "connections": [
+                        {
+                            "targetId": "000_2-sds-3-x-ml",
+                            "targetAnchor": "top",
+                            "sourceAnchor": "bottom"
+                        }
+                    ],
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x-sql",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x-sql",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/latest/000_1-sds-3-x-sql.dbc"
+                }
+	    }
+	},
         "1stRow": {
             "id": "1st-row",
             "cards": {
@@ -15,7 +48,7 @@
                     ],
                     "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x",
                     "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x",
-                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_1-sds-3-x.dbc"
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/latest/000_1-sds-3-x.dbc"
                 },
                 "2ndCard": {
                     "id": "000_2-sds-3-x-ml",
@@ -49,11 +82,11 @@
                     ],
                     "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_2-sds-3-x-ml",
                     "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_2-sds-3-x-ml",
-                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_2-sds-3-x-ml.dbc"
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/latest/000_2-sds-3-x-ml.dbc"
                 },
                 "3rdCard": {
                     "id": "000_3-sds-3-x-st",
-                    "hover": "Introduction to Spark Streaming with Discrete RDDs and live Experiments in Twitter with Interactive custom D3 Interactions. [book in progress]",
+                    "hover": "Introduction to Spark Streaming with Discrete RDDs and live Experiments in Twitter with Interactive custom D3 Interactions.",
                     "connections": [],
                     "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_3-sds-3-x-st",
                     "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_3-sds-3-x-st",
@@ -123,7 +156,7 @@
                 },
                 "2ndCard": {
                     "id": "000_9-sds-3-x-trends",
-                    "hover": "Trends in Financial Stocks and News Events using GDELT mass media metadata and yfinance via a Scalably Streamable Trend Calculus. Exploring Events and Persons of Interest at Time Points of Trend Reversals in Commodity Oil Price. [book in progress]",
+                    "hover": "Trends in Financial Stocks and News Events using GDELT mass media metadata and yfinance via a Scalably Streamable Trend Calculus. Exploring Events and Persons of Interest at Time Points of Trend Reversals in Commodity Oil Price.",
                     "connections": [],
                     "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_9-sds-3-x-trends",
                     "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_9-sds-3-x-trends",
@@ -135,12 +168,19 @@
             "id": "4th-row",
             "cards": {
                 "1stCard": {
-                    "id": "000_0-sds-3-x-projects",
-                    "hover": "22 WASP PhD Student-Group Projects for 2020-2021 instance of ScaDaMaLe. Each project is currently available as a .dbc file that can be loaded into a databricks Workspace from .dbc link here. The pre-requisite for each project is a subset of the above modules 000_1 through 000_9 [book in progress]",
+                    "id": "000_0-sds-3-x-projects-2020",
+                    "hover": "22 WASP PhD Student-Group Projects for 2020-2021 instance of ScaDaMaLe. Each project is currently available as a .dbc file that can be loaded into a databricks Workspace from .dbc link here. The pre-requisite for each project is a subset of the above modules 000_1 through 000_9",
                     "connections": [],
                     "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_0-sds-3-x-projects",
-                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_0-sds-3-x-projects",
                     "dbcLink": "https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2021/000_0-sds-3-x-projects"
+                },
+
+                "2ndCard": {
+                    "id": "000_0-sds-3-x-projects-2022",
+                    "hover": "WASP PhD Student-Group Projects for 2022-2023 instance of ScaDaMaLe. Each project will be made available as a .dbc file that can be loaded into a databricks Workspace from .dbc link here. The pre-requisite for each project is a subset of the above modules 000_1 through 000_9 [WORK IN PROGRESS]",
+                    "connections": [],
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_0-sds-3-x-projects-2022",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2022/000_0-sds-3-x-projects"
                 }
             }
         }
