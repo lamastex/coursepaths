@@ -11,7 +11,7 @@ function Footer() {
       <div className="flex md:flex-row flex-col space-y-5 justify-center items-center w-full md:space-x-10 xl:space-x-16 px-5">
         <div className="flex justify-center md:justify-end w-full md:w-1/2 break-words  ">
           <div className="flex justify-center md:justify-end text-sm sm:text-md xl:text/lg">
-            <p>2020-2021 instance was Sponsored by</p>
+            <p>2020-2022 instance was Sponsored by</p>
           </div>
         </div>
         <div className="flex justify-center md:justify-start w-2/3 md:w-1/2">
